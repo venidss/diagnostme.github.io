@@ -15,7 +15,7 @@ const allQuestions = [
 
     // Hard Questions (11-15)
     { question: "A 55-year-old smoker presents with hemoptysis, chest pain, and unintentional weight loss. What should be the primary concern?", choices: ["Pulmonary Embolism", "Tuberculosis", "Lung Cancer", "Pneumonia"], correct: "Lung Cancer", difficulty: "hard" },
-    { question: "A 70-year-old man presents with confusion, memory loss, and difficulty with speech. What condition is suspected?", choices: ["Alzheimer's Disease", "Stroke", "Depression", "Parkinson's Disease"], correct: "Alzheimer's Disease", difficulty: "hard" },
+    { question: "A 70-year-old man presents with confusion, memory loss, and difficulty with speech. What condition is suspected?", choices: ["Alzheimer Disease", "Stroke", "Depression", "Parkinson Disease"], correct: "Alzheimer Disease", difficulty: "hard" },
     { question: "A patient with high blood pressure and a family history of heart disease presents with chest pain and shortness of breath. What is the likely diagnosis?", choices: ["Angina Pectoris", "Acute Myocardial Infarction", "Aortic Dissection", "Pulmonary Embolism"], correct: "Acute Myocardial Infarction", difficulty: "hard" },
     { question: "A 65-year-old woman presents with severe abdominal pain, bloating, and changes in bowel habits. What is the most likely cause?", choices: ["Colorectal Cancer", "Diverticulitis", "Irritable Bowel Syndrome", "Pancreatitis"], correct: "Colorectal Cancer", difficulty: "hard" },
     { question: "A 45-year-old man presents with severe, constant pain in his abdomen, along with nausea and vomiting. What is the most likely diagnosis?", choices: ["Acute Appendicitis", "Gallstones", "Pancreatitis", "Peptic Ulcer Disease"], correct: "Pancreatitis", difficulty: "hard" },

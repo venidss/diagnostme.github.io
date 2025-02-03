@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Diagnosis Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Medical Diagnosis Quiz</h1>
+        
+        <div id="difficulty-container">
+            <h2>Select Difficulty Level</h2>
+            <button onclick="setDifficulty('easy')">Easy</button>
+            <button onclick="setDifficulty('medium')">Medium</button>
+            <button onclick="setDifficulty('hard')">Hard</button>
+            <button onclick="setDifficulty('expert')">Expert</button>
+        </div>
+
+        <div id="question-container" style="display:none;">
+            <p id="question">Loading...</p>
+            <div id="choices"></div>
+        </div>
+
+        <p id="timer">Time left: 1:30</p>
+        <p id="score">Score: 0</p>
+
+        <div class="nav-buttons">
+            <button id="back-btn" onclick="prevQuestion()" style="display: none;">Back to Difficulty</button>
+            <button id="next-btn" onclick="nextDifficulty()" style="display: none;">Next Difficulty</button>
+        </div>
+
+        <button id="restart-btn" onclick="startGame()" style="display: none;">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
